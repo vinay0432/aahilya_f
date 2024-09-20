@@ -1,0 +1,114 @@
+<!DOCTYPE html
+    PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <title>Aahilya Holidays</title>
+    <style>
+        a {
+            color: #dc6b0c;
+            text-decoration: none;
+            font-weight: 400;
+            font-style: normal
+        }
+    </style>
+</head>
+
+<body>
+    <table width='500px' border='0' cellspacing='0px' bordercolor='#CCCCCC' cellpadding='8px' align='center'
+        style='border:solid #CCC 1px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:18px;'>
+        <tr>
+            <td class='spacer' width='50'></td>
+        </tr>
+        <tr>
+            <td colspan='3'>
+                <table width='100%' border='0' cellspacing='0' cellpadding='0'>
+                    <tr>
+                        <td colspan='3' align='left'><img src='https://aahilyaholidays.com/images/logo.png'
+                                height='80' /></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class='spacer' width='50'></td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Dear Admin,<br><br>You have a new booking enquiry mail, details given below-</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Full Name * : ${data?.name}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Address * : ${data?.address}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Date * : ${data?.dob}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Home Telephone No * : ${data?.hPhone}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Mobile No * : ${data?.phone}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Email id * : ${data?.email}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Emergency Person Name * : ${data?.eName}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Relationship * : ${data?.eRelation}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Emergency address * : ${data?.eAddress}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Emergency Telephone No * : ${data?.eHPhone}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Emergency Mobile No * : ${data?.ePhone}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Emergency Email id * : ${data?.eEmail}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Have you had a Covid Jab? * : ${data?.covid ? "Yes" : "No"}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>What other medications do you take? * : ${data?.medication}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Which holiday would you like to book? * : ${data?.tourId}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Dietary requirements: * : ${data?.dietary}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Do you want a single room (subject to availability): * : ${data?.isSingleRoom ? "Yes" :
+                "No"}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Do you want Aahilya Holidays to book your International flights * : ${data?.isFlight ? "Yes"
+                : "No"}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Insurance Policy Issuer and Policy number * : ${data?.insurancePolicyNo}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>Emergency Contact no* : ${data?.eContactNo}</td>
+        </tr>
+        <tr bgcolor='#f5f5f6'>
+            <td colspan='3'>For your tour what is your preferred means of correspondence?* : ${data?.isCorrEmail ?
+                "Email" :""} ${data?.isCorrTele ? "Telephone" : ""} ${data?.isCorrPost ? "Post" : ""}</td>
+        </tr>
+        <tr>
+            <td colspan='3' align='center' bgcolor='#35b5ac' style='color:#FFF'>Copyright © 2023. Aahilya Holidays. All
+                Rights Reserved.
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

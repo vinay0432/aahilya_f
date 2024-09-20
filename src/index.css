@@ -1,0 +1,20 @@
+.stickyexample {
+	position: -webkit-sticky; /* for browser compatibility */
+	position: sticky;
+	top: 10px;
+	background-color: #00ff00;
+	padding: 3px;
+  }
+
+  
+/* .tab_otions {
+
+	padding: 16px 20px 0;
+	transition: 0.5s;
+	position: sticky;
+	top: 60px;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+
+} */
